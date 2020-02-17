@@ -27,7 +27,6 @@ p{
 }
 
 p:hover{
-  background: rgba(255, 0, 0, 0.2);
   border: 1px solid black;
   cursor: pointer;
 }
