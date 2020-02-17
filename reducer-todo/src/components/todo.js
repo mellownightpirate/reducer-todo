@@ -11,9 +11,9 @@ const Todo = props => {
       {props.state.map(todo => {
         return (
           <div
-            className={`todo${
+            style={
               todo.completed ? { textDecoration: "line-through" } : null
-            }`}
+            }
             onClick={() => handleToggle(todo.id)}
             key={todo.id}
           >
